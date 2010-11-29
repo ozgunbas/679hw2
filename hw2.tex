@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{fullpage}
+\title{679 Homework 2}
+\author{Erdeniz Ozgun Bas}
+\date{}
+\begin{document}
+\maketitle
+\begin{enumerate}
+\item Traffic Policing: In the token-bucket mechanism, input traffic will be waiting in a buffer if no token is available. Please discuss the impact of the buffer length on the traffic.
+  \begin{itemize}
+  \item Sidi et al.\cite{CONG} showed that as the buffer size increases, packet loss probability decreases and expected waiting time increases. Loss probability will decrease because the buffer will be able to accompany more packets. Expected waiting time will increase because the toke queue gets longer. On the other hand if the buffer size is infinite, both loss probability and expected waiting time depends on the size of the toke pool and the token generation time.
+  \end{itemize}
+\item QoS in Routers/Switches: Please do a survey on QoS-supporting features of Cisco and Juniper’s routers/switches, and conduct a comparison. 
+  \begin{itemize}
+  \item ans2
+  \end{itemize}
+\end{enumerate}
+\bibliographystyle{IEEEtran} \bibliography{hw2}
+\end{document}
